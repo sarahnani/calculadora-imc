@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Calculadora IMC</title>
+	</head>
+	<body>
+		<h1>Calcule aqui seu IMC:</h1>
+		<hr>
+		<input type="text" id = "txtNome" placeholder ="Digite aqui seu nome">
+		<input type="number" id = "numPeso" placeholder ="Aqui seu peso em kilo">
+		<input type="number" id = "numAltura" placeholder ="Aqui sua altura em metro">
+		<button type = "button" id = "calcular"> Calcular </button>
+		<button type = "button" id = "relatorio"> Gerar Relatório </button>
+		<hr>
+		<h3> Essa ferramenta é apenas para fins didáticos. Consulte seu médico para uma avaliação correta!</h3>
+		<p>
+			Nome: <span id="nome"></span>
+			<br>
+			Peso (kg): <span id="peso"></span>
+			<br>
+			Altura (m): <span id="altura"></span>
+			<br>
+			IMC: <span id="imc"></span>
+			<br>
+			Situação: <span id="situacao"></span>
+		</p>
+		<hr>
+		<ol id = "listaNumerada"></ol>
+	</body>
+	<script src="js/funcoes.js"></script>
+	<script src="js/controller.js"></script>
+</html>
